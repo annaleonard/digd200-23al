@@ -294,7 +294,7 @@ div.flavors-middle2 {
   text-align: center;
 }
 
-.about-left-box, .about-right-box {
+.contact-left-box, .contact-right-box {
   background-color: none;
   padding: 25px 15px;
   margin: 15px;
@@ -302,37 +302,22 @@ div.flavors-middle2 {
 max-height: 525px;
 }
 
-.about-left-box>* {
+.contact-left-box>* {
   text-align: center;
 }
 
-.about-right-box>* {
+.contact-right-box>* {
   text-align: center;
 }
 
-div.about-middle {
-  flex: 8;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 15px;
-  margin: auto 15px;
-}
-
-.about-middle>div {
-  color: #633B2C;
-  padding: 15px;
-  margin: auto;
-	margin-bottom: 30px;
-}
-
-.about-right-box1{
+.about-right-box{
   background-color: hotpink;
   padding: 25px 15px;
   margin: auto;
   max-width: 400px;
 }
 
-.about-right-box1 > * {
+.about-right-box > * {
   text-align: center;
 }
 
@@ -362,4 +347,13 @@ div.contact-middle {
   padding: 15px;
   margin: auto;
   margin-bottom: 30px;
+}
+
+.nav-link.active{
+    color: white !important;
+    border-bottom: 1px solid white;
+}
+
+.circleimg{
+    padding: 20px;
 }

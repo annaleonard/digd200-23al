@@ -1,58 +1,102 @@
 <div class="container mt-3">
-    <div class="rowsection section1">
-        <div class="col-md-6 section1-left"> 
-            <div class= "rounded-5 section1-left-box">
-                <h2>Life is sweet at<br>Chloe's Corner</h2>
-                <p>Now serving homemade ice<br>cream and Italian ice</p>
-                <div class="section1-link">
-                <button class="btn btn-outline-secondary" href="#" @click.prevent="changeContent('products', 'Products')" :class="{'active': currentPage === 'products'}" type="button">View Flavors</button>
-            </div>
+  <div class="rowsection section1">
+    <div class="col-md-6 section1-left">
+      <div class="rounded-5 section1-left-box">
+        <h2>Life is sweet at<br />Chloe's Corner</h2>
+        <p>Now serving homemade ice<br />cream and Italian ice</p>
+        <div class="section1-link">
+          <button
+            class="btn btn-outline-secondary"
+            href="#"
+            @click.prevent="changeContent('products', 'Products')"
+            :class="{'active': currentPage === 'products'}"
+            type="button"
+          >
+            View Flavors
+          </button>
         </div>
-        </div>
-        <div class="right1 col-md-6">  
-            <img src="images/homeicecream.jpg" class="img-fluid">
-        </div>
+      </div>
     </div>
-
-    <div class="rowsection section2">
-        <div class="col-md-6 section2-left"></div>
-            <div class="col-md-6 section2-middle">
-                <div class="section2-top-box">
-                  <h3>With both classic and adventorous flavors, our extensive selection has something for everyone.</h3>
-                </div>
-             <div class="rounded-5 section2-left-box">
-                  <h2>Ice Cream</h2>
-                  <p>Crafted with the finest<br>ingredients, our<br>farm-fresh ice cream<br>will tantalize your<br>taste buds.</p>
-                  <div class="section2-link">
-                    <button class="btn btn-outline-secondary" href="#" @click.prevent="changeContent('products', 'Products')" :class="{'active': currentPage === 'products'}" type="button">→</button>
-                                    <br>
-                  </div>
-                                <img class="section2-img" src="images/icecreamconemain.png">
-                </div>
-            <div class="rounded-5 section2-right-box">
-                  <h2>Italian Ice</h2>
-                  <p>Made with the finest<br>fruits, our Italian ice is<br>a burst of fruity<br>goodness in every<br>spoonful.</p>
-                  <div class="section2-link">
-                    <button class="btn btn-outline-secondary" href="#" @click.prevent="changeContent('products', 'Products')" :class="{'active': currentPage === 'products'}" type="button">→</button>
-                                    <br>
-                  </div>
-                                <img class="section2-img" src="images/italianicemain.png">
-                </div>
-              </div>
-              <div class="col-md-6 section2-right"></div>
+    <div class="right1 col-md-6">
+      <img src="images/homeicecream.jpg" class="img-fluid" />
     </div>
+  </div>
 
-    <div class="rowsection section3">
-         <div class="left1 col-md-6">  
-            <img src="images/cow.png" class="img-fluid">
+  <div class="rowsection section2">
+    <div class="col-md-6 section2-left"></div>
+    <div class="col-md-6 section2-middle">
+      <div class="section2-top-box">
+        <h3>
+          With both classic and adventorous flavors, our extensive selection has
+          something for everyone.
+        </h3>
+      </div>
+      <div class="rounded-5 section2-left-box">
+        <h2>Ice Cream</h2>
+        <p>
+          Crafted with the finest<br />ingredients, our<br />farm-fresh ice
+          cream<br />will tantalize your<br />taste buds.
+        </p>
+        <div class="section2-link">
+          <button
+            class="btn btn-outline-secondary"
+            href="#"
+            @click.prevent="changeContent('products', 'Products')"
+            :class="{'active': currentPage === 'products'}"
+            type="button"
+          >
+            →
+          </button>
+          <br />
         </div>
-        <div class="col-md-6 section3-right"> 
-            <div class= "rounded-5 section3-right-box">
-                <p>Sweet treats, late-night<br>eats, and sweet Philly<br>memories since 1995.</p>
-                <div class="section3-link">
-                <button class="btn btn-outline-secondary" href="#" @click.prevent="changeContent('about', 'about')" :class="{'active': currentPage === 'about'}" type="button">Read More</button>
-            </div>
+        <img class="section2-img" src="images/icecreamconemain.png" />
+      </div>
+      <div class="rounded-5 section2-right-box">
+        <h2>Italian Ice</h2>
+        <p>
+          Made with the finest<br />fruits, our Italian ice is<br />a burst of
+          fruity<br />goodness in every<br />spoonful.
+        </p>
+        <div class="section2-link">
+          <button
+            class="btn btn-outline-secondary"
+            href="#"
+            @click.prevent="changeContent('products', 'Products')"
+            :class="{'active': currentPage === 'products'}"
+            type="button"
+          >
+            →
+          </button>
+          <br />
         </div>
+        <img class="section2-img" src="images/italianicemain.png" />
+      </div>
+    </div>
+    <div class="col-md-6 section2-right"></div>
+  </div>
+
+  <div class="rowsection section3">
+    <div class="left1 col-md-6">
+      <img src="images/cow.jpg" class="img-fluid rounded-circle circleimg" />
+    </div>
+    <div class="col-md-6 section3-right">
+      <div class="rounded-5 section3-right-box">
+        <p>
+          Sweet treats, late-night<br />eats, and sweet Philly<br />memories
+          since 1995.
+        </p>
+        <div class="section3-link">
+          <button
+            class="btn btn-outline-secondary"
+            href="#"
+            @click.prevent="changeContent('about', 'about')"
+            :class="{'active': currentPage === 'about'}"
+            type="button"
+          >
+            Read More
+          </button>
         </div>
-    </div> 
+      </div>
+    </div>
+  </div>
 </div>
