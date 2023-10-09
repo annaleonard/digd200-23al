@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'Redacted Script';
+  src: url('../fonts/RedactedScript-Light.ttf') format('truetype');
+}
+/* just an example of how to load a local true-type font */
+.redacted {
+    font-family: 'Redacted Script', cursive;
+    font-size:2rem;
+}
+body{
+--my-brand-color: green;
+}
+
+.myplaceholder {
+    height:33.33vh;
+    background:#eee;
+}
+
+.navbar {
+    padding-bottom: 0px;
+}
+
+.navbar1 {
+    background-color: hotpink;
+}
+
+.nav-link {
+    color:white; 
+}
+
+.container-lg, .mt-3{
+    max-width: 99.2%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -20px;
+}
+
+.rowsection {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.section1 {
+  background: url(../images/chloes_corner_pattern.png);
+    background-size: 50%; 
+  padding: 15px;
+}
+.section1 > div {
+  padding: 10px;
+  align-content: center;
+  border: solid 3px transparent;
+  color: white;
+  margin: auto;
+}
+.section1-left {
+}
+
+.section1-right {
+}
+
+.section1-left-box {
+  background-color: hotpink;
+  padding: 25px 15px;
+  margin: auto;
+  max-width: 300px;
+}
+.section1-left-box > * {
+  text-align: center;
+}
+
+.section1-link > button {
+  margin: 0 auto;
+  display: block;
+  color: white;
+  border: solid 1px white;
+}
+
+
+.section2 {
+  background-color: lightblue;
+  padding: 0px;
+}
+
+.section2>div {
+  padding: 10px;
+  align-content: center;
+  /* border: solid 3px white; */
+  color: white;
+  margin: auto;
+  flex: 1;
+}
+
+.section2-left, .section2-right {}
+
+div.section2-middle {
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: auto 15px;
+}
+
+.section2-middle>div {
+  /* border: solid 3px white; */
+  color: white;
+  padding: 15px;
+  margin: auto;
+	margin-bottom: 30px;
+}
+
+.section2-top-box>* {
+  text-align: center;
+  margin: auto;
+  color: #633B2C;
+  width: 100%;
+}
+
+.section2-top-box>h3{
+    text-wrap: balance; 
+}
+
+.section2-left-box, .section2-right-box {
+  background-color: hotpink;
+  padding: 25px 15px;
+  margin: 15px;
+  width: 250px;
+	max-height: 525px;
+}
+
+.section2-left-box>* {
+  text-align: center;
+}
+
+.section2-img {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  margin-left: -40px;
+  width: 300px;
+	align-content: center;
+}
+
+
+.section2-right-box>* {
+  text-align: center;
+}
+
+.section2-link>button {
+  margin: 0 auto;
+  display: block;
+  color: white;
+  border: solid 1px white;
+}
+
+.section3 {
+  background: url(../images/chloes_corner_pattern.png);
+    background-size: 50%; 
+  padding: 15px;
+}
+
+.section3 > div {
+  padding: 10px;
+  align-content: center;
+  border: solid 3px transparent;
+  color: white;
+  margin: auto;
+}
+
+.section3-right-box{
+  background-color: hotpink;
+  padding: 25px 15px;
+  margin: auto;
+  max-width: 250px;
+}
+
+.section3-right-box > * {
+  text-align: center;
+}
+
+.section3-link > button {
+  margin: 0 auto;
+  display: block;
+  color: white;
+  border: solid 1px white;
+}
+
+.navbar-brand img{
+   height: 80px; 
+}
+p,a{
+ font-family: 'Nunito', sans-serif;
+    
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+h2,h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+
+.flavors {
+  background-color: lavenderblush;
+  padding: 0px;
+}
+
+.flavors>div {
+  padding: 10px;
+  align-content: center;
+  /* border: solid 3px white; */
+  color: white;
+  margin: auto;
+  flex: 1;
+}
+
+.flavors-left, .flavors-right {}
+
+
+div.flavors-middle1 {
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 0 px;
+  margin: auto 15px;
+}
+
+.flavors-middle1>div {
+  /* border: solid 3px white; */
+  color: #633B2C;
+  padding-top: 15px;
+  padding-bottom: 0 px;
+  margin: auto;
+}
+
+div.flavors-middle2 {
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  padding-bottom: 15 px
+  margin: auto 15px;
+}
+
+.flavors-middle2>div {
+  /* border: solid 3px white; */
+  color: #633B2C;
+  padding: 15px;
+  margin: auto;
+}
+
+.flavors-top-box>* {
+  text-align: center;
+  margin: auto;
+  color: #633B2C;
+  width: 100%;
+}
+
+.flavors-top-box>h3{
+    text-wrap: balance; 
+}
+
+.flavors-box {
+  padding: 25px 15px;
+  margin: 15px;
+  width: 250px;
+  max-height: 525px;
+  text-align: center;
+}
+
+.flavors-img {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  margin-left: -40px;
+  width: 300px;
+  align-content: center;
+}
+
+.about-right-box > * {
+  text-align: center;
+}
+
+.about-left-box, .about-right-box {
+  background-color: none;
+  padding: 25px 15px;
+  margin: 15px;
+  width: 350px;
+max-height: 525px;
+}
+
+.about-left-box>* {
+  text-align: center;
+}
+
+.about-right-box>* {
+  text-align: center;
+}
+
+div.about-middle {
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: auto 15px;
+}
+
+.about-middle>div {
+  color: #633B2C;
+  padding: 15px;
+  margin: auto;
+	margin-bottom: 30px;
+}
+
+.about-right-box1{
+  background-color: hotpink;
+  padding: 25px 15px;
+  margin: auto;
+  max-width: 400px;
+}
+
+.about-right-box1 > * {
+  text-align: center;
+}
+
+.contact {
+  background-color: lavenderblush;
+  padding: 0px;
+}
+
+.contact>div {
+  padding: 10px;
+  align-content: center;
+  color: white;
+  margin: auto;
+  flex: 1;
+}
+
+div.contact-middle {
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: auto 15px;
+}
+
+.contact-middle>div {
+  color: #633B2C;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 30px;
+}
