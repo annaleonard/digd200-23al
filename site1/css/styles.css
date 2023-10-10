@@ -53,7 +53,6 @@ body{
 .section1 > div {
   padding: 10px;
   align-content: center;
-  border: solid 3px transparent;
   color: white;
   margin: auto;
 }
@@ -89,7 +88,6 @@ body{
 .section2>div {
   padding: 10px;
   align-content: center;
-  /* border: solid 3px white; */
   color: white;
   margin: auto;
   flex: 1;
@@ -106,7 +104,6 @@ div.section2-middle {
 }
 
 .section2-middle>div {
-  /* border: solid 3px white; */
   color: white;
   padding: 15px;
   margin: auto;
@@ -220,7 +217,6 @@ h4{
 .flavors>div {
   padding: 10px;
   align-content: center;
-  /* border: solid 3px white; */
   color: white;
   margin: auto;
   flex: 1;
@@ -239,7 +235,6 @@ div.flavors-middle1 {
 }
 
 .flavors-middle1>div {
-  /* border: solid 3px white; */
   color: #633B2C;
   padding-top: 15px;
   padding-bottom: 0 px;
@@ -251,12 +246,11 @@ div.flavors-middle2 {
   display: flex;
   flex-wrap: wrap;
   padding-top: 0px;
-  padding-bottom: 15 px
+  padding-bottom: 15 px;
   margin: auto 15px;
 }
 
 .flavors-middle2>div {
-  /* border: solid 3px white; */
   color: #633B2C;
   padding: 15px;
   margin: auto;
