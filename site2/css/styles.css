@@ -18,6 +18,12 @@ height: 56px;
     background: #eee;
     height: 33vh;
 }
+
+.homehero {
+    background-image: url(../images/hero.jpg);
+    height: 50vh;
+}
+
 .my-light-navbar {
     background:#fff;
 }
@@ -108,3 +114,30 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+.rowsectionhome {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    height: 25vh;
+}
+
+.rowsectionblock{
+  flex: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: auto 15px;
+    align-content: center;
+    width: 50%;
+    height: 25vh;
+}
+
+.rowsectiontitle{
+   background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
