@@ -245,6 +245,41 @@ input[type=submit]:hover {
     height: 40vh;
 }
 
+.eventheroimg {
+  background-image: url(../images/eventshero.jpg);
+  background-size: cover;
+  background-position: center;
+    height: 40vh;
+}
+
+.resourcesheroimg {
+  background-image: url(../images/resourceshero.jpg);
+  background-size: cover;
+  background-position: center;
+    height: 40vh;
+}
+
+.faqheroimg {
+  background-image: url(../images/faq.jpg);
+  background-size: cover;
+  background-position: center;
+    height: 40vh;
+}
+
+.aboutheroimg {
+  background-image: url(../images/abouthero.jpg);
+  background-size: cover;
+  background-position: center;
+    height: 40vh;
+}
+
+.contactheroimg {
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+    height: 40vh;
+}
+
 .pagetitle {
     color: white;
 }
