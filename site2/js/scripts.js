@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {  
     /*global fetch, response*/
     fetch("partials/header.html")

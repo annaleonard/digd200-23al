@@ -9,29 +9,39 @@
  /*--bs-dark-rgb: 25,135,84 !important; */
 
 }
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&display=swap');
+</style>
+
+.hvr-underline-from-center:before {
+  background: var(--my-accent-color-dark);
+  height: 3px;
+}
+
 /* important: change this value to the computed height of your nav with your desired logo in it*/
 header {
 height: 56px;  
 }
 
 p,a{
- font-family: 'Puritan', sans-serif;
+font-family: 'Libre Baskerville', serif;
     color: var(--my-accent-color-dark);    
     
 }
 h1{
-    font-family: serif;
+font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
 h2{
-    font-family: serif;
+font-family: 'Playfair Display', serif;
     font-weight: 600;
     color: var(--my-special-btn-color);
 }
 
 h4{
-    font-family: serif;
+font-family: 'Playfair Display', serif;
     font-weight: 500;
     color: var(--my-special-btn-color);
 }
@@ -73,7 +83,8 @@ nav[data-bs-theme="dark"]{
 
 
 a.active {
-  border-bottom: 1px solid var(--my-brand-color) ;
+  border: 1px solid var(--my-brand-color) ;
+    border-radius: 4px;
 }
 
 h1 {
@@ -289,4 +300,8 @@ input[type=submit]:hover {
     object-position: center;
 /*    max-height:100%;*/
     max-width: 100%;
+}
+
+.green {
+ color:var(--my-brand-color);
 }
